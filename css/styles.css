@@ -19,5 +19,5 @@ body .root {
 }
 
 a:hover {
-    color: dodgerblue;
+    color: dodgerblue !important;
 }
