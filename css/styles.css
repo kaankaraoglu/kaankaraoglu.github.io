@@ -17,3 +17,7 @@ body {
 body .root {
   text-align: left;
 }
+
+a:hover {
+    color: dodgerblue;
+}
