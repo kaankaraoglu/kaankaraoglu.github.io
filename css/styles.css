@@ -1,23 +1,51 @@
 body {
   font-family: "Cal Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
   width: 50%;
   color: white;
   font-size: 1.7em;
   line-height: 1.6;
-  font-weight: 300;
   margin: 12% auto;
   background: #111;
 }
 
-body .root {
-  text-align: left;
+main p {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
 }
 
 a:hover {
-    color: dodgerblue !important;
+  color: dodgerblue;
+}
+
+.spotify {
+  color: #1DB954;
+}
+
+.note {
+  color: gray;
+  font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: auto;
+    max-width: 600px;
+    padding: 0 1.5rem;
+    font-size: clamp(1.1rem, 4vw, 1.7rem);
+    margin: 6rem auto;
+  }
 }
